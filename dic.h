@@ -1,16 +1,17 @@
-#ifndef DIC.H
-#define DIC.H
+#ifndef DIC_H
+#define DIC_H
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
 
 typedef struct No {
-    int valor;
+    char palavra_pt[50];
+    char palavra_en[50];
     struct No* proximo;
 } No;
 
 // Declarações das funções
-No* criar_no(int valor);
-void inserir_inicio(int valor, No** cabeca);
+No* criar_no(char pt[],char en[]);
+void inserir_inicio(char pt[],char en[], No** cabeca);
+
 
 #endif
