@@ -12,7 +12,8 @@ int main() {
         printf("Me informe qual operacao deve ser feita: \n");
         printf("0- SAIR DA OPERACAO :\n");
         printf("1- INSERIR NO INICIO :\n");
-        printf("2- MOSTRAR DICIONARIO :\n");
+        printf("2- REMOVER NO INICIO :\n");
+        printf("3- MOSTRAR DICIONARIO :\n");
         cin>>op;
 
         switch(op) {
@@ -22,8 +23,12 @@ int main() {
                   printf("Informe a palavra em ingles: ");
                 cin>>en;
                 inserir_inicio(pt,en, &lista);
-                              
                 case 2:
+printf("Informe a palavra em portugues para remover: ");
+cin>>pt;
+remover_palavra(pt,&lista);                
+                
+                case 3:
                 cout << "\n=== DICIONARIO ===" << endl;
                 if (lista == NULL) {
                     cout << "Dicionario vazio!" << endl;

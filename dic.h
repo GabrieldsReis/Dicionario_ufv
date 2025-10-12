@@ -12,6 +12,7 @@ typedef struct No {
 // Declarações das funções
 No* criar_no(char pt[],char en[]);
 void inserir_inicio(char pt[],char en[], No** cabeca);
+void remover_palavra(char pt[],No** cabeca);
 
 
 #endif
