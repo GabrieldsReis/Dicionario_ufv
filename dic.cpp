@@ -21,15 +21,15 @@ void inserir_inicio(char pt[],char en[], No** cabeca) {
 void remover_palavra(char pt[], No** cabeca){
 
     if (*cabeca == NULL) {
-        cout << "Dicionário vazio!" << endl;
+        cout << "Dicionario vazio!" << endl;
         return;
-    }
+    } 
+
     
-    
-    if (strcmp((*cabeca)->palavra_pt, pt) == 0) {
-        No* temp = *cabeca;
+    if (strcmp((*cabeca)->palavra_pt, pt) == 0) { //faz a comparacao de palavra da lista, com 'pt' fornecido pelo usuario.
+        No* aux = *cabeca;
         *cabeca = (*cabeca)->proximo;
-        free(temp);
+        free(aux);
         cout << "Palavra '" << pt << "' removida!" << endl;
         return;
     }
@@ -41,11 +41,35 @@ void remover_palavra(char pt[], No** cabeca){
     }
     
     if (atual->proximo != NULL) {
-        No* temp = atual->proximo;
+        No* aux = atual->proximo;
         atual->proximo = atual->proximo->proximo;
-        free(temp);
+        free(aux);
         cout << "Palavra '" << pt << "' removida!" << endl;
     } else {
-        cout << "Palavra '" << pt << "' não encontrada!" << endl;
+        cout << "Palavra '" << pt << "' nao encontrada!" << endl;
     }
+}
+
+void busca_palavra(char pt[],No** cabeca){
+    if(*cabeca == NULL){
+        printf("Dicionario Vazio!\n");
+        return;
+    }
+No* aux = *cabeca;
+int encontrado = 0;
+      while(aux != NULL){
+if(strcmp((aux)->palavra_pt,pt) == 0){
+       
+      
+        cout<<"A palavra "<< aux->palavra_pt << " em ingles eh: " << aux->palavra_en<< endl;
+    encontrado = 1;
+        break;
+    }
+
+    aux = aux->proximo;
+      }
+    if(!encontrado){
+        printf("Palavra nao encontrada!\n");
+    }
+
 }

@@ -13,6 +13,5 @@ typedef struct No {
 No* criar_no(char pt[],char en[]);
 void inserir_inicio(char pt[],char en[], No** cabeca);
 void remover_palavra(char pt[],No** cabeca);
-
-
+void busca_palavra(char pt[],No** cabeca);
 #endif
