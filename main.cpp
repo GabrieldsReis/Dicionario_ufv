@@ -47,8 +47,16 @@ remover_palavra(pt,&lista);
         cin>>pt;
         
         busca_palavra(pt,&lista);
+        break;
+        
+    case 5:
+    cin.ignore();
+    printf("Digite o texto para traduzir: ");
+    cin.getline(texto, 500);
+    traduzir_texto(lista, texto);
+    break;
 
-        }
+    }
 
     } while(op != 0);
 
