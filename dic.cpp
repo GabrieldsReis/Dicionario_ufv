@@ -73,3 +73,30 @@ if(strcmp((aux)->palavra_pt,pt) == 0){
     }
 
 }
+
+void traduzir_texto(No *cabeca, char texto[]) {
+    char copia[500];
+    strcpy(copia, texto);
+    char *token = strtok(copia, " ");
+
+    while(token != NULL) {
+        No *aux = cabeca;
+        int encontrado = 0;
+
+        while(aux != NULL) {
+            if(strcmp(aux->palavra_pt, token) == 0) {
+                printf("%s ", aux->palavra_en);
+                encontrado = 1;
+                break;
+       }
+            aux = aux->proximo;
+   }
+
+        if(!encontrado){
+            printf("%s ", token);
+
+        token = strtok(NULL, " ");
+    }
+
+    printf("\n");
+}
