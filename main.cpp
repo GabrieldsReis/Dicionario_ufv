@@ -8,6 +8,8 @@ int main() {
     char pt[50], en[50];
     No* lista = NULL;
 
+ carregar_inicial(&lista);
+
     do {
         printf("Me informe qual operacao deve ser feita: \n");
         printf("0- SAIR DA OPERACAO :\n");
