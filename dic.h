@@ -15,5 +15,5 @@ void inserir_inicio(char pt[],char en[], No** cabeca);
 void remover_palavra(char pt[],No** cabeca);
 void busca_palavra(char pt[],No** cabeca);
 void traduzir_texto(No *cabeca, char texto[]);
-
+void carregar_inicial(No **cabeca);
 #endif
