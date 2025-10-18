@@ -17,6 +17,8 @@ int main() {
         printf("2- REMOVER PALAVRA :\n");
         printf("3- MOSTRAR DICIONARIO :\n");
         printf("4- BUSCA DE PALAVRA :\n");
+        printf("5 - TRADUZIR TEXTO\n");
+        printf("Escolha uma opcao: ");
 
         cin>>op;
 
