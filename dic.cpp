@@ -74,7 +74,7 @@ if(strcmp((aux)->palavra_pt,pt) == 0){
 
 }
 
-void traduzir_texto(No *cabeca, char texto[]) {
+void traduzir_texto(No *cabeca, char texto[]){
     char copia[500];
     strcpy(copia, texto);
     char *token = strtok(copia, " ");
@@ -100,3 +100,29 @@ void traduzir_texto(No *cabeca, char texto[]) {
 
     printf("\n");
 }
+
+void carregar_inicial(No **cabeca){
+
+    inserir_inicio("o", "the", cabeca);
+    inserir_inicio("é", "is", cabeca);
+    inserir_inicio("são", "are", cabeca);
+    inserir_inicio("eles", "they", cabeca);
+    inserir_inicio("nós", "we", cabeca);
+    inserir_inicio("você", "you", cabeca);
+    inserir_inicio("eu", "I", cabeca);
+    inserir_inicio("ter", "have", cabeca);
+    inserir_inicio("fazer", "do", cabeca);
+    inserir_inicio("ir", "go", cabeca);
+    inserir_inicio("isto", "this", cabeca);
+    inserir_inicio("aquilo", "that", cabeca);
+    inserir_inicio("aqui", "here", cabeca);
+    inserir_inicio("lá", "there", cabeca);
+    inserir_inicio("um", "one", cabeca);
+    inserir_inicio("tudo", "all", cabeca);
+    inserir_inicio("mas", "but", cabeca);
+    inserir_inicio("porque", "because", cabeca);
+    inserir_inicio("muito", "very", cabeca);
+    inserir_inicio("tempo", "time", cabeca);
+
+}
+
