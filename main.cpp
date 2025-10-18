@@ -6,6 +6,7 @@
 int main() {
     int op, dado;
     char pt[50], en[50];
+    char texto[500];
     No* lista = NULL;
 
  carregar_inicial(&lista);
