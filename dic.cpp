@@ -104,11 +104,11 @@ void traduzir_texto(No *cabeca, char texto[]){
 void carregar_inicial(No **cabeca){
 
     inserir_inicio("o", "the", cabeca);
-    inserir_inicio("é", "is", cabeca);
-    inserir_inicio("são", "are", cabeca);
+    inserir_inicio("e", "is", cabeca);
+    inserir_inicio("sao", "are", cabeca);
     inserir_inicio("eles", "they", cabeca);
-    inserir_inicio("nós", "we", cabeca);
-    inserir_inicio("você", "you", cabeca);
+    inserir_inicio("nos", "we", cabeca);
+    inserir_inicio("voce", "you", cabeca);
     inserir_inicio("eu", "I", cabeca);
     inserir_inicio("ter", "have", cabeca);
     inserir_inicio("fazer", "do", cabeca);
