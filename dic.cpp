@@ -102,11 +102,11 @@ void traduzir_texto(No* cabeca, char texto[]) {
 void carregar_inicial(No **cabeca){
     // Palavras básicas (20 originais)
     inserir_inicio("o", "the", cabeca);
-    inserir_inicio("é", "is", cabeca);
-    inserir_inicio("são", "are", cabeca);
+    inserir_inicio("eh", "is", cabeca);
+    inserir_inicio("sao", "are", cabeca);
     inserir_inicio("eles", "they", cabeca);
-    inserir_inicio("nós", "we", cabeca);
-    inserir_inicio("você", "you", cabeca);
+    inserir_inicio("nos", "we", cabeca);
+    inserir_inicio("voce", "you", cabeca);
     inserir_inicio("eu", "I", cabeca);
     inserir_inicio("ter", "have", cabeca);
     inserir_inicio("fazer", "do", cabeca);
@@ -114,7 +114,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("isto", "this", cabeca);
     inserir_inicio("aquilo", "that", cabeca);
     inserir_inicio("aqui", "here", cabeca);
-    inserir_inicio("lá", "there", cabeca);
+    inserir_inicio("la", "there", cabeca);
     inserir_inicio("um", "one", cabeca);
     inserir_inicio("tudo", "all", cabeca);
     inserir_inicio("mas", "but", cabeca);
@@ -195,7 +195,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("duro", "hard", cabeca);
     inserir_inicio("macio", "soft", cabeca);
     inserir_inicio("suave", "smooth", cabeca);
-    inserir_inicio("áspero", "rough", cabeca);
+    inserir_inicio("aspero", "rough", cabeca);
     inserir_inicio("doce", "sweet", cabeca);
     inserir_inicio("azedo", "sour", cabeca);
     inserir_inicio("salgado", "salty", cabeca);
@@ -223,18 +223,18 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("cansado", "tired", cabeca);
     inserir_inicio("descansado", "rested", cabeca);
     inserir_inicio("doente", "sick", cabeca);
-    inserir_inicio("saudável", "healthy", cabeca);
+    inserir_inicio("saudavel", "healthy", cabeca);
     inserir_inicio("forte", "strong", cabeca);
     inserir_inicio("fraco", "weak", cabeca);
     
     inserir_inicio("inteligente", "smart", cabeca);
     inserir_inicio("burro", "stupid", cabeca);
-    inserir_inicio("sábio", "wise", cabeca);
+    inserir_inicio("sabio", "wise", cabeca);
     inserir_inicio("tolo", "foolish", cabeca);
     inserir_inicio("corajoso", "brave", cabeca);
     inserir_inicio("covarde", "coward", cabeca);
     inserir_inicio("generoso", "generous", cabeca);
-    inserir_inicio("egoísta", "selfish", cabeca);
+    inserir_inicio("egoista", "selfish", cabeca);
     inserir_inicio("honesto", "honest", cabeca);
     inserir_inicio("desonesto", "dishonest", cabeca);
     inserir_inicio("educado", "polite", cabeca);
@@ -242,7 +242,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("paciente", "patient", cabeca);
     inserir_inicio("impaciente", "impatient", cabeca);
     inserir_inicio("criativo", "creative", cabeca);
-    inserir_inicio("prático", "practical", cabeca);
+    inserir_inicio("pratico", "practical", cabeca);
     inserir_inicio("organizado", "organized", cabeca);
     inserir_inicio("desorganizado", "disorganized", cabeca);
     inserir_inicio("cuidadoso", "careful", cabeca);
