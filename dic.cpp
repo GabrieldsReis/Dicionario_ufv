@@ -100,7 +100,7 @@ void traduzir_texto(No* cabeca, char texto[]) {
     cout << endl;
 }
 void carregar_inicial(No **cabeca){
-    // Palavras básicas (20 originais)
+    
     inserir_inicio("o", "the", cabeca);
     inserir_inicio("eh", "is", cabeca);
     inserir_inicio("sao", "are", cabeca);
@@ -120,8 +120,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("mas", "but", cabeca);
     inserir_inicio("porque", "because", cabeca);
     inserir_inicio("muito", "very", cabeca);
-    inserir_inicio("tempo", "time", cabeca);
-
+    inserir_inicio("tempo", "time", cabeca);
     inserir_inicio("casa", "house", cabeca);
     inserir_inicio("carro", "car", cabeca);
     inserir_inicio("livro", "book", cabeca);
@@ -141,8 +140,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("escola", "school", cabeca);
     inserir_inicio("trabalho", "work", cabeca);
     inserir_inicio("dinheiro", "money", cabeca);
-    inserir_inicio("cidade", "city", cabeca);
-    
+    inserir_inicio("cidade", "city", cabeca);    
     inserir_inicio("pais", "country", cabeca);
     inserir_inicio("mundo", "world", cabeca);
     inserir_inicio("dia", "day", cabeca);
@@ -162,8 +160,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("frequentemente", "often", cabeca);
     inserir_inicio("raro", "rare", cabeca);
     inserir_inicio("novo", "new", cabeca);
-    inserir_inicio("velho", "old", cabeca);
-    
+    inserir_inicio("velho", "old", cabeca);    
     inserir_inicio("jovem", "young", cabeca);
     inserir_inicio("bonito", "beautiful", cabeca);
     inserir_inicio("feio", "ugly", cabeca);
@@ -183,8 +180,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("frio", "cold", cabeca);
     inserir_inicio("quente", "warm", cabeca);
     inserir_inicio("fresco", "cool", cabeca);
-    inserir_inicio("molhado", "wet", cabeca);
-    
+    inserir_inicio("molhado", "wet", cabeca);  
     inserir_inicio("seco", "dry", cabeca);
     inserir_inicio("limpo", "clean", cabeca);
     inserir_inicio("sujo", "dirty", cabeca);
@@ -204,8 +200,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("ruim", "bad", cabeca);
     inserir_inicio("bom", "good", cabeca);
     inserir_inicio("excelente", "excellent", cabeca);
-    inserir_inicio("terrivel", "terrible", cabeca);
-    
+    inserir_inicio("terrivel", "terrible", cabeca);    
     inserir_inicio("facil", "easy", cabeca);
     inserir_inicio("dificil", "difficult", cabeca);
     inserir_inicio("simples", "simple", cabeca);
@@ -225,8 +220,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("doente", "sick", cabeca);
     inserir_inicio("saudavel", "healthy", cabeca);
     inserir_inicio("forte", "strong", cabeca);
-    inserir_inicio("fraco", "weak", cabeca);
-    
+    inserir_inicio("fraco", "weak", cabeca);   
     inserir_inicio("inteligente", "smart", cabeca);
     inserir_inicio("burro", "stupid", cabeca);
     inserir_inicio("sabio", "wise", cabeca);
@@ -246,8 +240,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("organizado", "organized", cabeca);
     inserir_inicio("desorganizado", "disorganized", cabeca);
     inserir_inicio("cuidadoso", "careful", cabeca);
-    inserir_inicio("descuidado", "careless", cabeca);
-    
+    inserir_inicio("descuidado", "careless", cabeca);    
     inserir_inicio("ver", "see", cabeca);
     inserir_inicio("olhar", "look", cabeca);
     inserir_inicio("ouvir", "hear", cabeca);
@@ -267,8 +260,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("esquecer", "forget", cabeca);
     inserir_inicio("aprender", "learn", cabeca);
     inserir_inicio("ensinar", "teach", cabeca);
-    inserir_inicio("estudar", "study", cabeca);
-    
+    inserir_inicio("estudar", "study", cabeca);    
     inserir_inicio("trabalhar", "work", cabeca);
     inserir_inicio("descansar", "rest", cabeca);
     inserir_inicio("dormir", "sleep", cabeca);
@@ -288,8 +280,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("emprestar", "lend", cabeca);
     inserir_inicio("pedir", "borrow", cabeca);
     inserir_inicio("devolver", "return", cabeca);
-    inserir_inicio("trocar", "exchange", cabeca);
-    
+    inserir_inicio("trocar", "exchange", cabeca);   
     inserir_inicio("viajar", "travel", cabeca);
     inserir_inicio("visitar", "visit", cabeca);
     inserir_inicio("chegar", "arrive", cabeca);
@@ -309,8 +300,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("ler", "read", cabeca);
     inserir_inicio("escrever", "write", cabeca);
     inserir_inicio("desenhar", "draw", cabeca);
-    inserir_inicio("pintar", "paint", cabeca);
-    
+    inserir_inicio("pintar", "paint", cabeca);    
     inserir_inicio("cantar", "sing", cabeca);
     inserir_inicio("dançar", "dance", cabeca);
     inserir_inicio("tocar", "play", cabeca);
@@ -330,8 +320,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("desrespeitar", "disrespect", cabeca);
     inserir_inicio("ajudar", "help", cabeca);
     inserir_inicio("atrapalhar", "hinder", cabeca);
-    inserir_inicio("proteger", "protect", cabeca);
-    
+    inserir_inicio("proteger", "protect", cabeca); 
     inserir_inicio("atacar", "attack", cabeca);
     inserir_inicio("defender", "defend", cabeca);
     inserir_inicio("vencer", "win", cabeca);
@@ -351,8 +340,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("culpar", "blame", cabeca);
     inserir_inicio("perdoar", "forgive", cabeca);
     inserir_inicio("esquecer", "forget", cabeca);
-    inserir_inicio("comemorar", "celebrate", cabeca);
-    
+    inserir_inicio("comemorar", "celebrate", cabeca);   
     inserir_inicio("chorar", "cry", cabeca);
     inserir_inicio("rir", "laugh", cabeca);
     inserir_inicio("sorrir", "smile", cabeca);
