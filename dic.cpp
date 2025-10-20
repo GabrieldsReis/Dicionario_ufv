@@ -123,8 +123,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("porque", "because", cabeca);
     inserir_inicio("muito", "very", cabeca);
     inserir_inicio("tempo", "time", cabeca);
-
-    // Adicionais (230 palavras)
+
     inserir_inicio("casa", "house", cabeca);
     inserir_inicio("carro", "car", cabeca);
     inserir_inicio("livro", "book", cabeca);
@@ -133,35 +132,35 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("cadeira", "chair", cabeca);
     inserir_inicio("computador", "computer", cabeca);
     inserir_inicio("celular", "cellphone", cabeca);
-    inserir_inicio("água", "water", cabeca);
+    inserir_inicio("agua", "water", cabeca);
     inserir_inicio("comida", "food", cabeca);
-    inserir_inicio("pão", "bread", cabeca);
+    inserir_inicio("pao", "bread", cabeca);
     inserir_inicio("leite", "milk", cabeca);
-    inserir_inicio("café", "coffee", cabeca);
+    inserir_inicio("cafe", "coffee", cabeca);
     inserir_inicio("chá", "tea", cabeca);
     inserir_inicio("amigo", "friend", cabeca);
-    inserir_inicio("família", "family", cabeca);
+    inserir_inicio("familia", "family", cabeca);
     inserir_inicio("escola", "school", cabeca);
     inserir_inicio("trabalho", "work", cabeca);
     inserir_inicio("dinheiro", "money", cabeca);
     inserir_inicio("cidade", "city", cabeca);
     
-    inserir_inicio("país", "country", cabeca);
+    inserir_inicio("pais", "country", cabeca);
     inserir_inicio("mundo", "world", cabeca);
     inserir_inicio("dia", "day", cabeca);
     inserir_inicio("noite", "night", cabeca);
     inserir_inicio("semana", "week", cabeca);
-    inserir_inicio("mês", "month", cabeca);
+    inserir_inicio("mes", "month", cabeca);
     inserir_inicio("ano", "year", cabeca);
     inserir_inicio("hoje", "today", cabeca);
     inserir_inicio("ontem", "yesterday", cabeca);
-    inserir_inicio("amanhã", "tomorrow", cabeca);
+    inserir_inicio("amanha", "tomorrow", cabeca);
     inserir_inicio("agora", "now", cabeca);
     inserir_inicio("depois", "after", cabeca);
     inserir_inicio("antes", "before", cabeca);
     inserir_inicio("sempre", "always", cabeca);
     inserir_inicio("nunca", "never", cabeca);
-    inserir_inicio("às vezes", "sometimes", cabeca);
+    inserir_inicio("as vezes", "sometimes", cabeca);
     inserir_inicio("frequentemente", "often", cabeca);
     inserir_inicio("raro", "rare", cabeca);
     inserir_inicio("novo", "new", cabeca);
@@ -207,10 +206,10 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("ruim", "bad", cabeca);
     inserir_inicio("bom", "good", cabeca);
     inserir_inicio("excelente", "excellent", cabeca);
-    inserir_inicio("terrível", "terrible", cabeca);
+    inserir_inicio("terrivel", "terrible", cabeca);
     
-    inserir_inicio("fácil", "easy", cabeca);
-    inserir_inicio("difícil", "difficult", cabeca);
+    inserir_inicio("facil", "easy", cabeca);
+    inserir_inicio("dificil", "difficult", cabeca);
     inserir_inicio("simples", "simple", cabeca);
     inserir_inicio("complexo", "complex", cabeca);
     inserir_inicio("barato", "cheap", cabeca);
