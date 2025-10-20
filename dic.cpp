@@ -74,32 +74,30 @@ if(strcmp((aux)->palavra_pt,pt) == 0){
 
 }
 
-void traduzir_texto(No *cabeca, char texto[]){
-    char copia[500];
+void traduzir_texto(No* cabeca, char texto[]) {
+    char copia[300];
     strcpy(copia, texto);
-    char *token = strtok(copia, " ");
+    char* token = strtok(copia, " ");
 
-    while(token != NULL) {
-        No *aux = cabeca;
+    while (token != NULL) {
+        No* aux = cabeca;
         int encontrado = 0;
-
-        while(aux != NULL) {
-            if(strcmp(aux->palavra_pt, token) == 0) {
-                printf("%s ", aux->palavra_en);
+        while (aux != NULL) {
+            if (strcmp(aux->palavra_pt, token) == 0) {
+                cout << aux->palavra_en << " ";
                 encontrado = 1;
                 break;
-       }
+            }
             aux = aux->proximo;
-   }
+        }
 
-        if(!encontrado){
-            printf("%s ", token);
+        if (!encontrado) {
+            cout << token << " ";
         }
 
         token = strtok(NULL, " ");
     }
-
-    printf("\n");
+    cout << endl;
 }
 void carregar_inicial(No **cabeca){
     // Palavras básicas (20 originais)
