@@ -57,7 +57,7 @@ remover_palavra(pt,&lista);
     case 5:
     cin.ignore();
     printf("Digite o texto para traduzir: ");
-    cin.getline(texto, 500);
+    cin.getline(texto, 300);
     traduzir_texto(lista, texto);
     break;
 
