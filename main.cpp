@@ -1,8 +1,6 @@
 #include "dic.h"
     using namespace std;
 
-
-
 int main() {
     int op, dado;
     char pt[50], en[50];
@@ -66,13 +64,6 @@ remover_palavra(pt,&lista);
     } while(op != 0);
 
 
-
-    //mostrar lista 
-  
-    
-
-    
-
     while(lista != NULL) {
         No* aux = lista;
         lista = lista->proximo;
@@ -82,4 +73,5 @@ remover_palavra(pt,&lista);
     
 cout << "Programa encerrado!" << endl;
     return 0;
+
 }
