@@ -43,7 +43,7 @@ remover_palavra(pt,&lista);
                  while(aux != NULL) {
         cout<<aux->palavra_pt<<" - > "<<aux->palavra_en<<endl;
         aux = aux->proximo;
-        break;}
+        }
     }
         case 4:
         cout<<"Qual palavra devera ser buscada para traducao ?";
@@ -75,3 +75,4 @@ cout << "Programa encerrado!" << endl;
     return 0;
 
 }
+
