@@ -134,7 +134,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("pao", "bread", cabeca);
     inserir_inicio("leite", "milk", cabeca);
     inserir_inicio("cafe", "coffee", cabeca);
-    inserir_inicio("chá", "tea", cabeca);
+    inserir_inicio("cha", "tea", cabeca);
     inserir_inicio("amigo", "friend", cabeca);
     inserir_inicio("familia", "family", cabeca);
     inserir_inicio("escola", "school", cabeca);
@@ -174,7 +174,7 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("estreito", "narrow", cabeca);
     inserir_inicio("pesado", "heavy", cabeca);
     inserir_inicio("leve", "light", cabeca);
-    inserir_inicio("rápido", "fast", cabeca);
+    inserir_inicio("rapido", "fast", cabeca);
     inserir_inicio("devagar", "slow", cabeca);
     inserir_inicio("quente", "hot", cabeca);
     inserir_inicio("frio", "cold", cabeca);
@@ -352,3 +352,4 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("cumprimentar", "greet", cabeca);
     inserir_inicio("despedir", "say goodbye", cabeca);
 }
+
