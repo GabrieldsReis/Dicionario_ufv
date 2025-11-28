@@ -26,7 +26,7 @@ void remover_palavra(char pt[], No** cabeca){
     }
 
 
-    if (strcmp((*cabeca)->palavra_pt, pt) == 0) { //faz a comparacao de palavra da lista, com 'pt' fornecido pelo usuario.
+    if (strcmp((*cabeca)->palavra_pt, pt) == 0) { 
         No* aux = *cabeca;
         *cabeca = (*cabeca)->proximo;
         free(aux);
@@ -352,5 +352,6 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("cumprimentar", "greet", cabeca);
     inserir_inicio("despedir", "say goodbye", cabeca);
 }
+
 
 
