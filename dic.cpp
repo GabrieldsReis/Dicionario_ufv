@@ -4,7 +4,7 @@ using namespace std;
 No* criar_no(char pt[],char en[]) {
     No* novo = (No*)malloc(sizeof(No));
     if (novo == NULL) {
-        printf("Erro de aloca├º├úo de mem├│ria!\n");
+        printf("Erro de alocacao de memoria!\n");
         exit(1);
     }
     strcpy(novo->palavra_pt, pt);
@@ -352,4 +352,5 @@ void carregar_inicial(No **cabeca){
     inserir_inicio("cumprimentar", "greet", cabeca);
     inserir_inicio("despedir", "say goodbye", cabeca);
 }
+
 
